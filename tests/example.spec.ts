@@ -8,6 +8,7 @@ test('has title', async ({ page }) => {
 });
 
 test('get started link', async ({ page }) => {
+  //launch playwright documentation
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
